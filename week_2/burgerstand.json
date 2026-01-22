@@ -1,0 +1,19 @@
+{
+    "customer": {
+    "_id": "1",
+    "firstName": "John",
+    "lastName": "Doe",
+    "burgers": [
+        {
+            "name": "Classic Burger",
+            "price": 5.99,
+            "ingredients": ["beef patty", "lettuce", "tomato", "onion", "bun"]
+        },
+        {
+            "name": "Cheese Burger",
+            "price": 6.99,
+            "ingredients": ["beef patty", "cheddar cheese", "lettuce", "tomato", "bun"]
+        }
+    ]
+    }
+}
