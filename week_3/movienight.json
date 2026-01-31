@@ -1,0 +1,62 @@
+{
+	"viewers": [
+		{
+			"_id": "v1001",
+			"firstName": "Avery",
+			"lastName": "Lopez",
+			"movies": [
+				{
+					"_id": "m2001",
+					"movieName": "Skyline Echo",
+					"genre": "Sci-Fi",
+					"rating": {
+						"_id": "r3001",
+						"ratingScore": 4.5,
+						"viewerId": "v1001",
+						"movieId": "m2001"
+					}
+				},
+				{
+					"_id": "m2002",
+					"movieName": "River of Glass",
+					"genre": "Drama",
+					"rating": {
+						"_id": "r3002",
+						"ratingScore": 3.8,
+						"viewerId": "v1001",
+						"movieId": "m2002"
+					}
+				}
+			]
+		},
+		{
+			"_id": "v1002",
+			"firstName": "Jordan",
+			"lastName": "Patel",
+			"movies": [
+				{
+					"_id": "m2001",
+					"movieName": "Skyline Echo",
+					"genre": "Sci-Fi",
+					"rating": {
+						"_id": "r3003",
+						"ratingScore": 4.0,
+						"viewerId": "v1002",
+						"movieId": "m2001"
+					}
+				},
+				{
+					"_id": "m2003",
+					"movieName": "Midnight Harbor",
+					"genre": "Mystery",
+					"rating": {
+						"_id": "r3004",
+						"ratingScore": 4.7,
+						"viewerId": "v1002",
+						"movieId": "m2003"
+					}
+				}
+			]
+		}
+	]
+}
