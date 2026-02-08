@@ -1,0 +1,30 @@
+{
+    "users": [
+        {
+            "_id": "u1001",
+            "firstName": "Alice",
+            "lastName": "Smith",
+            "devices": [
+                {
+                    "_id": "d1001",
+                    "deviceName": "iPhone 16 Pro",
+                    "deviceType": "Smartphone",
+                    "charger_id": "c2001"
+                },
+                {
+                    "_id": "d1002",
+                    "deviceName": "iPad Air",
+                    "deviceType": "Tablet",
+                    "charger_id": "c2001"
+                }
+            ]
+        }
+    ],
+    "chargers": [
+        {
+            "_id": "c2001",
+            "chargerType": "Wireless",
+            "voltage": 15
+        }
+    ]
+}
