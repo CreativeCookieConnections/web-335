@@ -1,0 +1,29 @@
+{
+    "Books": [
+        {
+            "title": "The Loard of the Rings",
+            "author": "J.R.R. Tolkien",
+            "genre": "Fantasy",
+            "bookId": "b1001"
+        }
+    ],
+    
+    "customers": [
+        {
+            "firstName": "Ian",
+            "lastName": "Malcolm",
+            "customerId": "c1001",
+            "wishlistitems": [
+                {
+                    "bookId": "b1007"
+                },
+                {
+                    "bookId": "b1009"
+                }
+            ]
+
+        }
+    ]
+}
+
+
