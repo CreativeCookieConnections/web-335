@@ -10,7 +10,7 @@ from pymongo import MongoClient
 import datetime
 
 # Build a connection string to connect to MongoDB Atlas
-client = MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.bfy9zvm.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("")
 
 # Configure a variable to access the web335DB database
 db = client['web335DB']

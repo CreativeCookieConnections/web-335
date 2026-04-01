@@ -10,7 +10,7 @@ from pymongo import MongoClient
 from pprint import pprint
 
 # Connection string from MongoDB Atlas
-client = MongoClient("mongodb+srv://web335_user:s3cret@bellevueuniversity.bfy9zvm.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("")
 
 # Connect to the 'web335DB' database
 db = client['web335DB']
